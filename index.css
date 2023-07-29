@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap');
+
+html, body, section{
+    background-color: #1E1F28;
+}
+
+
+.btn-fade {
+    background: rgb(131,35,255);
+    background: linear-gradient(90deg, rgba(131,35,255,1) 0%, rgba(255,45,175,1) 100%);
+}
+
+.text1 {
+    font-family: 'Outfit', sans-serif;
+}
+
+.tt {
+    font-family: 'Outfit', sans-serif;
+    font-size: 30px;
+}
+.star {
+    font-family: 'Outfit', sans-serif;
+    font-size: 23px;
+}
+
+.tc {
+    font-family: 'Outfit', sans-serif;
+    font-weight: light;
+    font-size: 18px;
+    color: #8B8D9B;
+}
