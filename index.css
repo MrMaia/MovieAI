@@ -17,6 +17,9 @@ html, body, section{
 .tt {
     font-family: 'Outfit', sans-serif;
     font-size: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .star {
     font-family: 'Outfit', sans-serif;
@@ -28,4 +31,20 @@ html, body, section{
     font-weight: light;
     font-size: 18px;
     color: #8B8D9B;
+}
+
+.filmes {
+    /* Adicione espaçamento horizontal entre os filmes */
+    margin-right: 20px;
+}
+
+/* Remova a margem direita do último filme para evitar espaço extra à direita do terceiro filme */
+.movie3 {
+    margin-right: 0;
+}
+
+.bannerfilme img {
+    width: 388px;
+    height: 576px;
+    object-fit: fill; /* Esticar a imagem para preencher o espaço */
 }

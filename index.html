@@ -14,25 +14,25 @@
             <a class="pt-5 pb-5">
                 <img src="assets/imgs/mediumlogo.png" alt="Bootstrap">
                 <a>
-                    <button style="height: 50px; font-size: 18px;" type="button" class="btn text-light btn-fade text1">Nova recomendação <i class="ph-fill ph-lightning"></i></button>
+                    <button id="botaoGerar" style="height: 50px; font-size: 18px;" type="button" class="btn text-light btn-fade text1">Nova recomendação <i class="ph-fill ph-lightning"></i></button>
                 </a>
             </a>
         </div>
     </section>
     
     <section>
-        <div class="container d-flex flex-row justify-content-between">
+        <div class="container-fluid d-flex flex-row justify-content-center filmes gap-5">
             <div class="movie1">
                 <div class="tituloenta d-flex flex-row justify-content-between">
-                    <p class="text-light m-0 p-0 tt">Barbie</p>
-                    <p class="text-light m-0 p-0 star d-flex align-items-center"><i class="ph-fill ph-star" style="font-size: 25px; color: #FEEA35; margin-right: 5px; padding-bottom: 2px;"></i> 4.9</p>
+                    <h2 class="text-light m-0 p-0 tt">Barbie</h2>
+                    <p class="text-light m-0 p-0 star d-flex align-items-center" id="nota1"><i class="ph-fill ph-star" style="font-size: 25px; color: #FEEA35; margin-right: 5px; padding-bottom: 2px;"></i> 4.9</p>
                 </div>
                 <div class="bannerfilme">
                     <img src="assets/imgs/mediumposter.png" alt="Bootstrap">
                 </div>
                 <div class="horaeano d-flex flex-row justify-content-between mt-2 mb-3">
-                    <p class=" m-0 p-0 d-flex align-items-center tc"><i class="ph ph-clock" style="font-size: 25px;"></i> 1:54:00</p>
-                    <p class=" m-0 p-0 d-flex align-items-center tc"><i class="ph ph-calendar-blank" style="font-size: 25px;"></i> 2023</p>
+                    <p id="duracao1" class=" m-0 p-0 d-flex align-items-center tc"><i class="ph ph-clock" style="font-size: 25px;"></i> 1:54:00</p>
+                    <p id="ano1" class=" m-0 p-0 d-flex align-items-center tc"><i class="ph ph-calendar-blank" style="font-size: 25px;"></i> 2023</p>
                 </div>
                 <div class="botaoassistirtrailer">
                     <button style="width: 390px; background-color: #2B2B37; font-size: 20px;" type="button" class="btn text-light btn-trailer text1"> <i class="ph-fill ph-play-circle"></i>Assistir trailer</button>
@@ -44,15 +44,15 @@
 
             <div class="movie2">
                 <div class="tituloenta d-flex flex-row justify-content-between">
-                    <p class="text-light m-0 p-0 tt">Oppenheimer</p>
-                    <p class="text-light m-0 p-0 star d-flex align-items-center"><i class="ph-fill ph-star" style="height: 28px; color: #FEEA35; margin-right: 5px;"></i> 4.9</p>
+                    <h2 class="text-light m-0 p-0 tt">Oppenheimer</h2>
+                    <p id="nota2" class="text-light m-0 p-0 star d-flex align-items-center"><i class="ph-fill ph-star" style="font-size: 25px; color: #FEEA35; margin-right: 5px; padding-bottom: 2px;"></i> 4.9</p>
                 </div>
                 <div class="bannerfilme">
                     <img src="assets/imgs/mediumposter2.png" alt="Bootstrap">
                 </div>
                 <div class="horaeano d-flex flex-row justify-content-between mt-2 mb-3">
-                    <p class=" m-0 p-0 d-flex align-items-center tc"><i class="ph ph-clock" style="font-size: 25px;"></i> 1:54:00</p>
-                    <p class=" m-0 p-0 d-flex align-items-center tc"><i class="ph ph-calendar-blank" style="font-size: 25px;"></i> 2023</p>
+                    <p id="duracao2" class=" m-0 p-0 d-flex align-items-center tc"><i class="ph ph-clock" style="font-size: 25px;"></i> 1:54:00</p>
+                    <p id="ano2" class=" m-0 p-0 d-flex align-items-center tc"><i class="ph ph-calendar-blank" style="font-size: 25px;"></i> 2023</p>
                 </div>
                 <div class="botaoassistirtrailer">
                     <button style="width: 390px; background-color: #2B2B37; font-size: 20px;" type="button" class="btn text-light btn-trailer text1"> <i class="ph-fill ph-play-circle"></i>Assistir trailer</button>
@@ -64,15 +64,15 @@
 
             <div class="movie3">
                 <div class="tituloenta d-flex flex-row justify-content-between">
-                    <p class="text-light m-0 p-0 tt">Indiana Jones</p>
-                    <p class="text-light m-0 p-0 star d-flex align-items-center"><i class="ph-fill ph-star" style="height: 28px; color: #FEEA35; margin-right: 5px;"></i> 4.9</p>
+                    <h2 class="text-light m-0 p-0 tt">Indiana Jones</h2>
+                    <p id="nota3" class="text-light m-0 p-0 star d-flex align-items-center"><i class="ph-fill ph-star" style="font-size: 25px; color: #FEEA35; margin-right: 5px; padding-bottom: 2px;"></i> 4.9</p>
                 </div>
                 <div class="bannerfilme">
                     <img src="assets/imgs/mediumposter3.png" alt="Bootstrap">
                 </div>
                 <div class="horaeano d-flex flex-row justify-content-between mt-2 mb-3">
-                    <p class=" m-0 p-0 d-flex align-items-center tc"><i class="ph ph-clock" style="font-size: 25px;"></i> 1:54:00</p>
-                    <p class=" m-0 p-0 d-flex align-items-center tc"><i class="ph ph-calendar-blank" style="font-size: 25px;"></i> 2023</p>
+                    <p id="duracao3" class=" m-0 p-0 d-flex align-items-center tc"><i class="ph ph-clock" style="font-size: 25px;"></i> 1:54:00</p>
+                    <p id="ano3" class=" m-0 p-0 d-flex align-items-center tc"><i class="ph ph-calendar-blank" style="font-size: 25px;"></i> 2023</p>
                 </div>
                 <div class="botaoassistirtrailer">
                     <button style="width: 390px; background-color: #2B2B37; font-size: 20px;" type="button" class="btn text-light btn-trailer text1"> <i class="ph-fill ph-play-circle"></i>Assistir trailer</button>
@@ -82,7 +82,8 @@
     </section>
 
 
-    <script src="script.js"></script>
+    <script src="scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
