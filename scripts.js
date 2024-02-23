@@ -1,5 +1,3 @@
-// script.js
-
 const apiKey = "e6816bdb33adf13e06533003e116f7a6"; // Substitua com sua chave de API do TMDb
 
 function buscarFilmesAleatorios() {
